@@ -20,7 +20,7 @@ let lastName = "Stark";
 
 // Assignment and re-assignment
 
-var wiseMan = "Tyrion Lannister";
+//var wiseMan = "Tyrion Lannister";
 
 // Follow instructions and do the following. In case of an error write the error in comment
 
@@ -31,7 +31,7 @@ var wiseMan = "Tyrion Lannister";
 
 // Mathematical Operation
 
-let amount = 4280;
+//let amount = 4280;
 
 // Using mathematical operations find the solutions. `(+, -, \*, / , etc.)`
 
@@ -39,3 +39,9 @@ let amount = 4280;
 // Declare another variable `addedAmount`. It's value should be 32 more than the value of amount.
 // Declare a variable `multipleAmount`. It's value should be 7 times the value of amount.
 // Declare a variable `dividedAmount`. It should store the resultant of amount divided by 57.
+// 
+
+alert(`Arya`);
+alert(`Stark`);
+
+let 
