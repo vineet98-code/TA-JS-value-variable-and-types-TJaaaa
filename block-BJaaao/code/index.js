@@ -17,10 +17,15 @@ let num2 = 32;
 - Alert `The sum of [num1] and [num2] is [num1 + num1]`
 */
 
+let language = "javascript";
+alert(`I am learning ${language}`);
+alert("The value of num1 is" + " " + num1 + "and the value of num2 is " + num2 ) ;
+alert(`The sum of ${num1} and ${num2} is ${num1 + num1}`);
 /*
 2. Do the following using `alert`, `prompt` and `confirm` and `console`
 
   - Using prompt accept the name of the user and store it a variable names `userName`
+  
   - Using prompt accept the profession of the user and store it a variable names`userProfession`
   - Using confirm check if user is adult or not and store the value in `isAdult`
   - Alert message `I am [userName] a [userProfession]`
@@ -32,6 +37,19 @@ let num2 = 32;
     Adult: [isAdult]
     Profession: [userProfession]` (it should be in three different lines)
 */
+prompt("What is the name?");
+var userName="AltCampus";
+prompt("What is your profession?");
+var userProfession="doctor";
+
+
+var isAdult= confirm("Are you a Adult?");
+alert(`I am ${userName} a ${userProfession}`);
+
+alert(`Username: ${userName} Adult: ${isAdult}`);
+
+
+
 
 /*
 . Addition using prompt
@@ -43,3 +61,14 @@ let num2 = 32;
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
+prompt("what is the value of numA");
+prompt("what is the value of numB");
+
+var numA="23";
+var numB="45";
+alert(`The sum of both numbers. ${numA} + ${numB}`);
+alert(`The subtraction of both numbers. ${numA} - ${numB}`);
+alert(`The multiplication of both numbers. ${numA} * ${numB}`);
+
+
+
