@@ -17,9 +17,9 @@ let num2 = 32;
 - Alert `The sum of [num1] and [num2] is [num1 + num1]`
 */
 
-let language = "javascript";
+let language = "javaScript";
 alert(`I am learning ${language}`);
-alert("The value of num1 is" + " " + num1 + "and the value of num2 is " + num2 ) ;
+alert(`The value of num1 is ${num1} and the value of num2 is ${num2}`) ;
 alert(`The sum of ${num1} and ${num2} is ${num1 + num1}`);
 /*
 2. Do the following using `alert`, `prompt` and `confirm` and `console`
@@ -37,19 +37,23 @@ alert(`The sum of ${num1} and ${num2} is ${num1 + num1}`);
     Adult: [isAdult]
     Profession: [userProfession]` (it should be in three different lines)
 */
-prompt("What is the name?");
-var userName="AltCampus";
-prompt("What is your profession?");
-var userProfession="doctor";
+ let userName = prompt("What is the name?");
+
+ let userProfession= prompt("What is your profession?");
+
+ let isAdult= confirm("Are you a Adult?");
+
+ alert(`I am ${userName} a ${userProfession}`);
+ console.log(`I am ${userName} a ${userProfession}`);
+
+ alert(`username: ${userName}
+        Adult: ${isAdult}
+        Profession: ${userProfession}`);
 
 
-var isAdult= confirm("Are you a Adult?");
-alert(`I am ${userName} a ${userProfession}`);
-
-alert(`Username: ${userName} Adult: ${isAdult}`);
-
-
-
+console.log(`username: ${userName}
+             Adult: ${isAdult}
+             Profession: ${userProfession}`);
 
 /*
 . Addition using prompt
@@ -61,14 +65,14 @@ alert(`Username: ${userName} Adult: ${isAdult}`);
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
-prompt("what is the value of numA");
-prompt("what is the value of numB");
+var numA=Number(prompt("what is the value of numA"));
+var numB=Number(prompt("what is the value of numB"));
 
-var numA="23";
-var numB="45";
-alert(`The sum of both numbers. ${numA} + ${numB}`);
-alert(`The subtraction of both numbers. ${numA} - ${numB}`);
-alert(`The multiplication of both numbers. ${numA} * ${numB}`);
+
+alert(Number(numA + numB));
+alert(numA - numB);
+console.log(Number(numA - numB));
+console.log(Number(numA * numB));
 
 
 
