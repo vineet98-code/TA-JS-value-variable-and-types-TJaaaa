@@ -9,6 +9,9 @@
 
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
 
+let num1 = Number(prompt("Enter a number")); num1 % 5===0 || num1 % 7===0 ? alert(true) : alert(false);
+
+let num2 = Number(prompt("Enter a number")); num1 % 2===0 && num1 % 4===0 ? alert(true) : alert(false);
 // 3. Convert the above code using`?` terniary operator
 
 /*
